@@ -1,0 +1,5 @@
+LIBRARY sys.dll
+
+EXPORTS
+	PeShield_LoadDriver
+	PeShield_UnloadDriver

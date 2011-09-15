@@ -1,0 +1,133 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "Senol Pe Shield Loader\0"
+            VALUE "CompanyName", "Senol (t) 2006 - 2007\0"
+            VALUE "FileDescription", "Pe Shield Loader\0"
+            VALUE "FileVersion", "1, 0, 0, 0\0"
+            VALUE "InternalName", "Loader\0"
+            VALUE "LegalCopyright", "Copyright @  Senol (t) 2006 - 2007\0"
+            VALUE "LegalTrademarks", "Senol Pe Shield Loader\0"
+            VALUE "OriginalFilename", "m\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Senol Pe Shield Loader\0"
+            VALUE "ProductVersion", "1, 5, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SYS
+//
+
+IDR_PESHIELD_SYS        SYS     DISCARDABLE     "PeShield.sys"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_WEB_CERTIFIED    "인증되지 않은 소프트웨어 입니다.\n웹사이트에서 인증을 하시면 사용하실 수 있습니다.\n\n※ 확인을 누르시면  웹사이트에 접속합니다."
+    IDS_NO_SYSTEM_MAC       "네트워크 어댑터가 존재하지 않거나 설정에 문제가 있습니다.\n제어판의 네트워크 연결에서 설정을 확인하세요.\n계속 문제가 발생할 경우, 구입처에 문의하세요."
+    IDS_DATABASE_OFFLINE    "인증 서버에 접속할 수 없습니다.\n인터넷 연결을 확인하신 후 다시 시도하세요.\n계속 문제가 발생할 경우, 구입처에 문의하세요."
+    IDS_MACHASH_UNMATCHED   "이동, 복제되거나 변경되어진 소프트웨어 입니다.\n다른 시스템으로의 소프트웨어 이전을 원하시는 경우,\n 웹사이트에서 재인증을 하신 후에 사용하실 수 있습니다.\n\n※ 확인을 누르시면  웹사이트에 접속합니다."
+    IDS_INVALID_METADATA    "손상, 변경되어진 소프트웨어 입니다.\n정상적으로 사용하시려면 다시 설치하세요."
+    IDS_NO_STARTUP          "Pe Shield Loader가 로드되지 않았습니다."
+    IDS_PROCESS_FULL        "시스템에 지나치게 많은 소프트웨어가 사용되고 있어\n더 이상 실행할 수 없습니다.\n사용중인 소프트웨어를 종료한 후에 다시 시도하세요.\n계속 문제가 발생할 경우, 구입처에 문의하세요."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

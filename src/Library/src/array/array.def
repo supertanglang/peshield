@@ -1,0 +1,15 @@
+LIBRARY array.dll
+
+EXPORTS
+	PeShield_ArrayStartup
+	PeShield_ArrayCleanup
+
+	PeShield_ArrayInsert
+	PeShield_ArrayRemove
+	PeShield_ArrayFree
+
+	PeShield_ArrayObject
+	PeShield_ArrayData
+	PeShield_ArrayCount
+	PeShield_ArrayIsFull
+	PeShield_ArrayIsEmpty

@@ -1,0 +1,8 @@
+LIBRARY reg.dll
+
+EXPORTS
+	PeShield_RegDoesKeyExist
+	PeShield_RegCreateKey
+	PeShield_RegSetValue
+	PeShield_RegGetValue
+	PeShield_RegDeleteKey

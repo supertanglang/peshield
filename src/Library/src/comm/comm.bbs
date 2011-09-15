@@ -1,0 +1,5 @@
+[Batch Build]
+dll - Win32 Debug=1
+dll - Win32 Release=1
+lib - Win32 Debug=1
+lib - Win32 Release=1

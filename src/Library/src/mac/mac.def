@@ -1,0 +1,6 @@
+LIBRARY mac.dll
+
+EXPORTS
+	PeShield_GetMacAddressFromSystem
+	PeShield_GetMacHashFromDatabase
+

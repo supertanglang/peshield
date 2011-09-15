@@ -1,0 +1,7 @@
+LIBRARY crypto.dll
+
+EXPORTS
+	PeShield_EncryptDes
+	PeShield_DecryptDes
+
+	PeShield_GetSha1Hash	

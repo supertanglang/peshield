@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/service.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Senol Pe Shield\Pe Shield 1.5\Src\Library\src\service\service.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP92.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DLL_EXPORTS" /Fp"Release/dll.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Senol Pe Shield\Pe Shield 1.5\Src\Library\src\main.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Senol Pe Shield\Pe Shield 1.5\Src\Library\src\service\service.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP92.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP93.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib netapi32.lib /nologo /dll /incremental:no /pdb:"Release/service.pdb" /machine:I386 /def:".\service.def" /out:"../../dll/service.dll" /implib:"../../dll/service.lib" 
+".\Release\main.obj"
+".\Release\service.obj"
+".\Release\service.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP93.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.c
+service.c
+Linking...
+   Creating library ../../dll/service.lib and object ../../dll/service.exp
+
+
+
+<h3>Results</h3>
+service.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

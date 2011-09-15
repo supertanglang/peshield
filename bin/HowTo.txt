@@ -1,0 +1,11 @@
+These files must be with "PeShield.exe"
+comm.dll	- Pe Shield Common Library
+crypto.dll	- Encryption/Decryption Library
+io.dll		- File Io Library
+pe.dll		- PE Structure Library
+reg.dll		- Registry Library
+d		- Pe Shield Spy Module
+m		- Pe Shield Loader
+
+* Pe Shield Driver file is within Pe Shield Loader as a resource.
+* Before running encrypted exe file, copy "ntwdblib.dll" into C:\Windows\System32.

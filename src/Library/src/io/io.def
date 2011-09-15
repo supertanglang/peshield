@@ -1,0 +1,14 @@
+LIBRARY io.dll
+
+EXPORTS
+	PeShield_CreateFileMapping
+	PeShield_CloseFileMapping
+	PeShield_TruncateFile
+	PeShield_HideFile
+
+	PeShield_GetFileDirectory
+	PeShield_GetFileName
+	PeShield_GetFileExt
+
+
+	

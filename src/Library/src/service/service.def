@@ -1,0 +1,10 @@
+LIBRARY service.dll
+
+EXPORTS
+	PeShield_IsExeWebCertified
+
+	PeShield_ConnectToWebSite
+	PeShield_TerminateProcesses
+
+	PeShield_DeleteSelf
+	PeShield_GetSecuredPath

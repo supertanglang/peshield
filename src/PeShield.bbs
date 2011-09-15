@@ -1,0 +1,11 @@
+[Batch Build]
+Dummy - Win32 Debug=1
+Dummy - Win32 Release=1
+MacTest - Win32 Debug=1
+MacTest - Win32 Release=1
+Module - Win32 Debug=1
+Module - Win32 Release=1
+Sys - Win32 Checked=1
+Sys - Win32 Free=1
+Tool - Win32 Debug=1
+Tool - Win32 Release=1

@@ -1,0 +1,5 @@
+LIBRARY comm.dll
+
+EXPORTS
+	PeShield_GetMetaData
+	PeShield_IsMetaDataValid

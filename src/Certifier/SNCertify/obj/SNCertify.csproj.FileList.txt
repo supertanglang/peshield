@@ -1,0 +1,14 @@
+bin\Debug\SNCertify.dll
+bin\Debug\SNCertify.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SNCertify.Control.resources
+obj\Debug\SNCertify.csproj.GenerateResource.Cache
+obj\Debug\SNCertify.dll
+obj\Debug\SNCertify.pdb
+bin\Release\SNCertify.dll
+bin\Release\SNCertify.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SNCertify.Control.resources
+obj\Release\SNCertify.csproj.GenerateResource.Cache
+obj\Release\SNCertify.dll
+obj\Release\SNCertify.pdb

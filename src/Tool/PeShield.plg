@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PeShield - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/PeShield.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\PeShield.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\Agent.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\AgentButton.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\AgentEdit.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\AgentEdit2.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\Balloon.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\BalloonWnd.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\NotifySink.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\OptionBalloon.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\PeShield.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\PeShieldDlg.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\Sink.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\StdAfx.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\Tool.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\Senol Pe Shield\Pe Shield 1.5\Src\Tool\WebBalloon.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP45.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+../Library/dll/comm.lib ../Library/dll/io.lib ../Library/dll/pe.lib ../Library/dll/crypto.lib ../Library/dll/reg.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PeShield.pdb" /machine:I386 /out:"../../Bin/PeShield.exe" 
+".\Release\Agent.obj"
+".\Release\AgentButton.obj"
+".\Release\AgentEdit.obj"
+".\Release\AgentEdit2.obj"
+".\Release\Balloon.obj"
+".\Release\BalloonWnd.obj"
+".\Release\NotifySink.obj"
+".\Release\OptionBalloon.obj"
+".\Release\PeShield.obj"
+".\Release\PeShieldDlg.obj"
+".\Release\Sink.obj"
+".\Release\StdAfx.obj"
+".\Release\Tool.obj"
+".\Release\WebBalloon.obj"
+".\Release\PeShield.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP46.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Agent.cpp
+AgentButton.cpp
+AgentEdit.cpp
+AgentEdit2.cpp
+Balloon.cpp
+BalloonWnd.cpp
+NotifySink.cpp
+OptionBalloon.cpp
+PeShield.cpp
+PeShieldDlg.cpp
+Sink.cpp
+StdAfx.cpp
+Tool.cpp
+WebBalloon.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP48.tmp" with contents
+[
+/nologo /o"Release/PeShield.bsc" 
+".\Release\Agent.sbr"
+".\Release\AgentButton.sbr"
+".\Release\AgentEdit.sbr"
+".\Release\AgentEdit2.sbr"
+".\Release\Balloon.sbr"
+".\Release\BalloonWnd.sbr"
+".\Release\NotifySink.sbr"
+".\Release\OptionBalloon.sbr"
+".\Release\PeShield.sbr"
+".\Release\PeShieldDlg.sbr"
+".\Release\Sink.sbr"
+".\Release\StdAfx.sbr"
+".\Release\Tool.sbr"
+".\Release\WebBalloon.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP48.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49.bat" with contents
+[
+@echo off
+copy ..\Library\dll\comm.dll ..\..\Bin\comm.dll
+copy ..\Library\dll\io.dll ..\..\Bin\io.dll
+copy ..\Library\dll\pe.dll ..\..\Bin\pe.dll
+copy ..\Library\dll\crypto.dll ..\..\Bin\crypto.dll
+copy ..\Library\dll\reg.dll ..\..\Bin\reg.dll
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49.bat"
+
+        1개 파일이 복사되었습니다.
+        1개 파일이 복사되었습니다.
+        1개 파일이 복사되었습니다.
+        1개 파일이 복사되었습니다.
+        1개 파일이 복사되었습니다.
+
+
+
+<h3>Results</h3>
+PeShield.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

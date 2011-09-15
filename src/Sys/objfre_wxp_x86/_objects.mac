@@ -1,0 +1,28 @@
+MUI_386_OBJECTS= \
+    $(_OBJ_DIR)\i386\peshield.res
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\peshield.res \
+    $(_OBJ_DIR)\i386\peshield.obj
+
+MUI_IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\peshield.res
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\peshield.res \
+    $(_OBJ_DIR)\ia64\peshield.obj
+
+MUI_AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\peshield.res
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\peshield.res \
+    $(_OBJ_DIR)\amd64\peshield.obj
+
+MUI_ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\peshield.res
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\peshield.res \
+    $(_OBJ_DIR)\arm\peshield.obj
+

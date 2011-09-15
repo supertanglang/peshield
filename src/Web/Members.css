@@ -1,0 +1,17 @@
+BODY, SPAN, INPUT, TEXTAREA, SELECT, P
+{
+	font-family:Verdana;
+	font-size:11px;
+}
+
+TD
+{
+	font-family:Verdana;
+	font-size:11px;
+	padding : 5px;
+}
+
+A
+{
+    TEXT-DECORATION: none
+}

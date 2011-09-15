@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/io.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Senol Pe Shield\Pe Shield 1.5\Src\Library\src\io\io.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DLL_EXPORTS" /Fp"Release/dll.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Senol Pe Shield\Pe Shield 1.5\Src\Library\src\io\io.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Senol Pe Shield\Pe Shield 1.5\Src\Library\src\main.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/io.pdb" /machine:I386 /def:".\io.def" /out:"../../dll/io.dll" /implib:"../../dll/io.lib" 
+".\Release\io.obj"
+".\Release\main.obj"
+".\Release\io.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+io.c
+main.c
+Linking...
+   Creating library ../../dll/io.lib and object ../../dll/io.exp
+
+
+
+<h3>Results</h3>
+io.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

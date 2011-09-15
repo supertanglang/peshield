@@ -1,0 +1,9 @@
+LIBRARY pe.dll
+
+EXPORTS
+	PeShield_GetPeHdrs
+	PeShield_GetSectionInformation
+	
+	PeShield_IsImageExecutable
+
+	PeShield_HookResource

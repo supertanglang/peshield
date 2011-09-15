@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP58.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/lib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\Senol Pe Shield\Pe Shield 1.5\Src\Library\src\array\array.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP58.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\array.lib"  ".\Release\array.obj" "
+<h3>Output Window</h3>
+Compiling...
+array.c
+Creating library...
+
+
+
+<h3>Results</h3>
+array.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,5 @@
+[Batch Build]
+Module - Win32 Debug=1
+Module - Win32 Release=1
+PeShield - Win32 Debug=1
+PeShield - Win32 Release=1
